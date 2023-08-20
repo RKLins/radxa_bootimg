@@ -86,3 +86,7 @@ Usage: mkcpiogz directory
 ```
 Usage: unmkcpiogz initramfs.cpio.gz
 ```
+
+# Other
+
+on debian, might require `libssl-dev` package
