@@ -1,7 +1,7 @@
 CC      ?= gcc
 CFLAGS  ?= -O2 -Wall -Wextra
 LDFLAGS ?= -lcrypto
-PREFIX  ?= usr/local
+PREFIX  ?= radxa_bootimg/installs
 
 TARGETS = afptool img_maker mkbootimg unmkbootimg
 SCRIPTS = mkrootfs mkupdate mkcpiogz unmkcpiogz
